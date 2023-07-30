@@ -1,0 +1,8 @@
+prefix=/home/kubin/catkin_ws/src/ros_basic/build/devel
+
+Name: ros_basic
+Description: Description of ros_basic
+Version: 0.0.0
+Cflags: -I/home/kubin/catkin_ws/src/ros_basic/include
+Libs: -L${prefix}/lib -lros_basic
+Requires: roscpp rospy std_msgs
