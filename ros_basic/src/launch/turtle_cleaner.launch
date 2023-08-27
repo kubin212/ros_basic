@@ -1,0 +1,6 @@
+<launch>
+    <node name="turtlesim" pkg="turtlesim" type="turtlesim_node" />
+  <!-- Python -->
+  <!-- <node name="turtle_control" pkg="ros_basic" type="turtle_control.py" output="screen"/> -->
+    <node name="robot_cleaner" pkg="ros_basic" type="turtlemove" />
+</launch>
